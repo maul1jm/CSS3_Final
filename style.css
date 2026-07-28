@@ -62,32 +62,57 @@ main {
   font-size: 120%;
 }
 
+#index_image_porch img{
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: 5px;
+  display: inline-block;
+  width: auto;
+  
+
+}
+
 .images{
   display: grid;
   grid-template-columns: 30% 30% 30%;
   justify-content: center;
-  align-items: center;
+  row-gap: 30px;
+  column-gap: 20px;
+  
+  }
+
+.images img{
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: 5px;
+  object-fit: fill;
+  padding: 5px;
+  border-radius: 100px;
+  
+}
+
+
+.images_daily_life{
+  display: grid;
+  grid-template-columns: 30% 30% 20%;
   row-gap: 20px;
-  column-gap: 10px;
-}
-
-#index_image_porch{
-  display: inline-block;
+  column-gap: 40px;
   justify-content: center;
-  align-items: center;
-  outline-style: solid;
-  outline-color: black;
-  outline-width: 5px;
+  nth-child(2){
+    border: 100px;
+  }
 }
 
-.images img {
-  object-fit: scale-down;
+.images_daily_life img{
+  border-width: 5px;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 50px;
+  object-fit: fill; */
 }
 
-.flex_images{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
+img:nth-child(even) {
+  background-color: red;
 }
