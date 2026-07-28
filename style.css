@@ -116,3 +116,9 @@ main {
 img:nth-child(even) {
   background-color: red;
 }
+
+#index_text{
+  font-size: 120%;
+  margin: 50px;
+  text-indent: 20px;
+}
