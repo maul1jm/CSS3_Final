@@ -100,9 +100,7 @@ main {
   row-gap: 20px;
   column-gap: 40px;
   justify-content: center;
-  nth-child(2){
-    border: 100px;
-  }
+  
 }
 
 .images_daily_life img{
@@ -110,7 +108,7 @@ main {
   border-style: solid;
   padding: 5px;
   border-radius: 50px;
-  object-fit: fill; */
+  object-fit: fill;
 }
 
 img:nth-child(even) {
